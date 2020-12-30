@@ -385,8 +385,8 @@ public class QueryRunner {
                 System.out.print("Enter database: ");
                 database = console.nextLine();
                 /*
-                * If don't want to login every time comment out lines 382 to 390 which ask for user input, and
-                * uncomment line 396 and add in the login credentials as arguments
+                * If don't want to login every time comment out lines 377 to 386 which ask for user input, and
+                * add in the login credentials as string literal arguments on line 392
                 */
                 // Establish connection to database
                 boolean connection = queryrunner.Connect(hostname, username, password, database);
